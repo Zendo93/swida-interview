@@ -1,0 +1,19 @@
+# Core dependencies
+Django>=4.2,<5.0
+djangorestframework>=3.14,<4.0
+
+# Optional: for frontend CORS support
+django-cors-headers>=4.0,<5.0
+
+# OpenAPI schema and Swagger UI
+drf-spectacular>=0.27.1,<1.0
+
+# Optional: environment variables management
+python-decouple>=3.8
+
+# Optional: PostgreSQL support
+psycopg2-binary>=2.9
+
+# Optional: testing and dev tools
+black>=24.0
+flake8>=6.0
