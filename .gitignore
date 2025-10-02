@@ -1,0 +1,44 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Python
+transport_api/**/__pycache__/
+transport_api/**/*.py[cod]
+transport_api/**/*.egg
+transport_api/**/*.egg-info/
+transport_api/**/dist/
+transport_api/**/build/
+transport_api/**/*.log
+
+# Django
+transport_api/**/db.sqlite3
+transport_api/**/media/
+transport_api/**/staticfiles/
+transport_api/**/*.pot
+transport_api/**/*.pyc
+
+# Django Migrations (optional: keep __init__.py)
+transport_api/**/migrations/*.pyc
+transport_api/**/migrations/__pycache__/

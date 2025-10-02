@@ -1,0 +1,83 @@
+[
+  {
+    "model": "orders.order",
+    "pk": 1,
+    "fields": {
+      "order_number": "ORD001",
+      "customer_name": "Alice Smith",
+      "date": "2025-08-21"
+    }
+  },
+  {
+    "model": "orders.order",
+    "pk": 2,
+    "fields": {
+      "order_number": "ORD002",
+      "customer_name": "Bob Johnson",
+      "date": "2025-08-22"
+    }
+  },
+  {
+    "model": "orders.order",
+    "pk": 3,
+    "fields": {
+      "order_number": "ORD003",
+      "customer_name": "Charlie Brown",
+      "date": "2025-08-23"
+    }
+  },
+  {
+    "model": "orders.waypoint",
+    "pk": 1,
+    "fields": {
+      "order": 1,
+      "location": "New York",
+      "type": "Pickup"
+    }
+  },
+  {
+    "model": "orders.waypoint",
+    "pk": 2,
+    "fields": {
+      "order": 1,
+      "location": "Philadelphia",
+      "type": "Delivery"
+    }
+  },
+  {
+    "model": "orders.waypoint",
+    "pk": 3,
+    "fields": {
+      "order": 2,
+      "location": "Chicago",
+      "type": "Pickup"
+    }
+  },
+  {
+    "model": "orders.waypoint",
+    "pk": 4,
+    "fields": {
+      "order": 2,
+      "location": "Detroit",
+      "type": "Delivery"
+    }
+  },
+  {
+    "model": "orders.waypoint",
+    "pk": 5,
+    "fields": {
+      "order": 3,
+      "location": "Los Angeles",
+      "type": "Pickup"
+    }
+  },
+  {
+    "model": "orders.waypoint",
+    "pk": 6,
+    "fields": {
+      "order": 3,
+      "location": "San Francisco",
+      "type": "Delivery"
+    }
+  }
+]
